@@ -71,7 +71,7 @@ a {
 
 /* main */
 
-/* work picture-gird */
+/* work picture-grid */
 
 img {
   height: 100%;
@@ -81,14 +81,36 @@ img {
 .page-section {
   margin-top: 5%;
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 15% 80%;
   align-content: stretch;
+}
+
+.page-section h2 {
+  border-right: 6px solid blue;
+  height: 100%;
+  margin: 0 15%;
 }
 
 .work-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "topRow topRow"
+    "middleRow1 mR2"
+    "bR1 bR2";
+}
+
+.topRow {
+  grid-area: topRow;
+}
+
+.middleRow1 {
+  grid-area: middleRow1;
+}
+
+.mR2 {
+  grid-area: mR2;
 }
 
 /* footer */
