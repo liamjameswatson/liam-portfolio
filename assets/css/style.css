@@ -96,21 +96,21 @@ a {
 
 .project1 {
   grid-area: project1;
-  background-image: url(/assets/images/02-portfolio-1.jpg);
+  background-image: url(/assets/projects/world-cup-tracker/world-cup-tracker.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .project2 {
   grid-area: project2;
-  background-image: url(/assets/images/02-portfolio-2.jpg);
+  background-image: url(/assets/projects/furniture-shop/furniture-shop.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .project3 {
   grid-area: project3;
-  background-image: url(/assets/images/02-portfolio-3.jpg);
+  background-image: url(/assets/projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -133,6 +133,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.project-link {
+  padding: 100%;
 }
 
 /* footer */
