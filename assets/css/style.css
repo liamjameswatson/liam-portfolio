@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,19 +10,6 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
 }
 
 /* header/nav */
@@ -64,19 +53,20 @@ a {
 .logo a,
 .nav-right a {
   padding: 10px 15px;
-  text-transform: uppercase;
   text-align: center;
   display: block;
 }
 
 /* main */
 
-/* work picture-grid */
+/* hero */
 
-img {
-  height: 100%;
+.hero-image {
+  height: 80vh;
   width: 100%;
 }
+
+/* work picture-grid */
 
 .page-section {
   margin-top: 5%;
@@ -91,26 +81,58 @@ img {
   margin: 0 15%;
 }
 
-.work-container {
+.project-grid {
+  height: 110vh;
+  width: 90%;
+  gap: 1%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
-    "topRow topRow"
-    "middleRow1 mR2"
-    "bR1 bR2";
+    "project1 project1"
+    "project2 project3"
+    "project4 project5";
 }
 
-.topRow {
-  grid-area: topRow;
+.project1 {
+  grid-area: project1;
+  background-image: url(/assets/images/02-portfolio-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.middleRow1 {
-  grid-area: middleRow1;
+.project2 {
+  grid-area: project2;
+  background-image: url(/assets/images/02-portfolio-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
-.mR2 {
-  grid-area: mR2;
+.project3 {
+  grid-area: project3;
+  background-image: url(/assets/images/02-portfolio-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.project4 {
+  grid-area: project4;
+  background-image: url(/assets/images/02-portfolio-4.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.project5 {
+  grid-area: project5;
+  background-image: url(/assets/images/02-run-buddy.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.project-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* footer */
