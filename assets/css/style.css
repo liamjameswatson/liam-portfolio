@@ -133,21 +133,21 @@ a {
 
 .project3 {
   grid-area: project3;
-  background-image: url("https://github.com/liamjameswatson/liam-portfolio/blob/main/assets/projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png");
+  background-image: url("../projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .project4 {
   grid-area: project4;
-  background-image: url("/assets/projects/horiseon/horiseon-screenshot.jpg");
+  background-image: url("../projects/horiseon/horiseon-screenshot.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project5 {
   grid-area: project5;
-  background-image: url("/assets/projects/pre-work-study-guide/pre-work-screeenshot.jpg");
+  background-image: url("../projects/pre-work-study-guide/pre-work-screeenshot.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
