@@ -119,14 +119,14 @@ a {
 
 .project1 {
   grid-area: project1;
-  background-image: url(/assets/projects/world-cup-tracker/world-cup-tracker.png);
+  background-image: url(../projects/world-cup-tracker/world-cup-tracker.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .project2 {
   grid-area: project2;
-  background-image: url(/assets/projects/furniture-shop/furniture-shop.png);
+  background-image: url(../projects/furniture-shop/furniture-shop.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
