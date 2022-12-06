@@ -133,7 +133,7 @@ a {
 
 .project3 {
   grid-area: project3;
-  background-image: url(/assets/projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png);
+  background-image: url(https://github.com/liamjameswatson/liam-portfolio/blob/main/assets/projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
