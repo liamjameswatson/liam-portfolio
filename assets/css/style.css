@@ -71,7 +71,7 @@ a {
 /* hero */
 
 .hero-banner {
-  background-image: url("/assets/images/photo-5.jpg");
+  background-image: url("../images/photo-5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
@@ -119,35 +119,35 @@ a {
 
 .project1 {
   grid-area: project1;
-  background-image: url(../projects/world-cup-tracker/world-cup-tracker.png);
+  background-image: url("../projects/world-cup-tracker/world-cup-tracker.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .project2 {
   grid-area: project2;
-  background-image: url(../projects/furniture-shop/furniture-shop.png);
+  background-image: url("../projects/furniture-shop/furniture-shop.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .project3 {
   grid-area: project3;
-  background-image: url(https://github.com/liamjameswatson/liam-portfolio/blob/main/assets/projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png);
+  background-image: url("https://github.com/liamjameswatson/liam-portfolio/blob/main/assets/projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .project4 {
   grid-area: project4;
-  background-image: url(/assets/projects/horiseon/horiseon-screenshot.jpg);
+  background-image: url("/assets/projects/horiseon/horiseon-screenshot.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project5 {
   grid-area: project5;
-  background-image: url(/assets/projects/pre-work-study-guide/pre-work-screeenshot.jpg);
+  background-image: url("/assets/projects/pre-work-study-guide/pre-work-screeenshot.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
