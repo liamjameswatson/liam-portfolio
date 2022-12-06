@@ -14,9 +14,9 @@
       <h1 class="logo"><a href="#">Liam</a></h1>
       <ul class="nav-right">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </header>
 
@@ -24,16 +24,19 @@
     <section class="hero-banner">
       <div>
         <h2>Weclome to my page!!</h2>
-        <img class="hero-image" src="./assets/images/02-hero-bg.jpg" alt="" />
+        <!-- <img class="hero-image" src="./assets/images/02-hero-bg.jpg" alt="" /> -->
+        <img
+          class="profile-pic"
+          src="./assets/images/profile-pic.jpg"
+          alt="Profile picture of Liam"
+        />
       </div>
-      <img src="./assets/images/profile-pic.jpg" alt="" />
     </section>
 
     <main class="page-wrapper">
       <!-- about me -->
       <section class="page-section" id="about">
         <h2>About Me</h2>
-        <!-- <div class="divider"></div> -->
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maiores
           perspiciatis omnis autem. Aut facere dicta at enim quod necessitatibus
@@ -41,7 +44,13 @@
           labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
           voluptatum veniam error ipsam amet. Inventore laborum voluptatem,
           pariatur veritatis sunt quasi rem aperiam consequatur laudantium neque
-          similique dicta non ab!
+          similique dicta non ab! Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ea maiores perspiciatis omnis autem. Aut facere
+          dicta at enim quod necessitatibus maxime soluta eius illum corporis,
+          sed excepturi doloremque rerum labore! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Sit voluptatum veniam error ipsam amet.
+          Inventore laborum voluptatem, pariatur veritatis sunt quasi rem
+          aperiam consequatur laudantium neque similique dicta non ab!
         </p>
       </section>
 
@@ -50,65 +59,47 @@
         <h2>Work</h2>
         <div class="project-grid">
           <div class="project-flex project1">
-            <div class="project1-title">
-              <a
-                class="project-link"
-                href="https://liamjameswatson.github.io/world-cup-tracker/"
-              >
-                <h3>World Cup Tracker</h3>
-              </a>
-            </div>
+            <a
+              class="project-link"
+              href="https://liamjameswatson.github.io/world-cup-tracker/"
+              ><h3>World Cup Tracker</h3>
+            </a>
           </div>
+
           <div class="project-flex project2">
-            <div class="project2-title">
-              <a
-                class="project-link"
-                href="./assets/projects/furniture-shop/furniture-shop.png"
-              >
-                <h3>Furniture Shop</h3>
-              </a>
-            </div>
+            <a
+              class="project-link"
+              href="./assets/projects/furniture-shop/index.html"
+            >
+              <h3>Furniture Shop</h3>
+            </a>
           </div>
+
           <div class="project-flex project3">
-            <div class="project3-title">
-              <a
-                class="project-link"
-                href="./assets/projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png"
-              >
-                <h3>CSS Cheatsheet</h3></a
-              >
-            </div>
+            <a
+              class="project-link"
+              href="./assets/projects/css-grid-cheatsheet/index.html"
+            >
+              <h3>CSS Cheatsheet</h3>
+            </a>
           </div>
+
           <div class="project-flex project4">
-            <div class="project4-title">
-              <h3>Project 4</h3>
-              <div class="project3-title">
-                <a
-                  class="project-link"
-                  href="./assets/projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png"
-                >
-                  <h3>Coming Soon</h3></a
-                >
-              </div>
-            </div>
+            <a
+              class="project-link"
+              href="https://liamjameswatson.github.io/horiseon-website/"
+              ><h3>Horiseon Refractoring Project</h3>
+            </a>
           </div>
           <div class="project-flex project5">
-            <div class="project5-title">
-              <h3>Project 5</h3>
-              <h3>Project 4</h3>
-              <div class="project3-title">
-                <a
-                  class="project-link"
-                  href="./assets/projects/css-grid-cheatsheet/assets/css-grid-cheatsheet.png"
-                >
-                  <h3>Coming Soon</h3></a
-                >
-              </div>
-            </div>
+            <a
+              class="project-link"
+              href="https://liamjameswatson.github.io/prework-study-guide/"
+            >
+              <h3>Pre work study guide</h3></a
+            >
           </div>
         </div>
-
-        <!-- END GRID -->
       </section>
 
       <!-- contact -->
@@ -116,8 +107,7 @@
       <footer>
         <section class="page-section contact" id="contact">
           <h2>Contact Me</h2>
-          <!-- <div class="divider"></div> -->
-          <section class="contact">
+          <section class="contact-links">
             <a target="_blank" href="https://github.com/liamjameswatson"
               >Github</a
             >
