@@ -2,8 +2,7 @@
 
 _My Porfolio Site_
 
-Horiseon-website
-Improving a website's accessibilty for a fictional company 'Horiseon'
+A showcase of my work and where to contact me
 
 ## Description
 
